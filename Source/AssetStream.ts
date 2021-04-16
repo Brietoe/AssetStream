@@ -1,7 +1,8 @@
 
 type CommandMessage = { command: string; };
+type CommandResponse = { request: CommandMessage; };
 
-export default function AssetStream(message: CommandMessage): void
+export default function AssetStream(message: CommandMessage): CommandResponse
 {
-	return;
+	return { request: message };
 }
