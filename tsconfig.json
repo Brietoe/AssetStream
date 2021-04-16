@@ -36,6 +36,7 @@
 		"preserveConstEnums": true
 	},
 	"files": [
-		"Source/AssetStream.ts"
+		"Source/AssetStream.ts",
+		"./Source/CommandMessage.ts"
 	]
 }
