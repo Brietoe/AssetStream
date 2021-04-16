@@ -35,7 +35,10 @@
 		"useDefineForClassFields": true,
 		"preserveConstEnums": true
 	},
-	"include": [
-		"Source/**/*.ts"
-	]
+	"files": [
+		"Source/AssetStream.ts"
+	],
+	// "include": [
+	// 	"Source/**/*.ts"
+	// ]
 }
