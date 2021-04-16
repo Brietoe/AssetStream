@@ -37,6 +37,7 @@
 	},
 	"files": [
 		"Source/AssetStream.ts",
+		"Source/AssetStream.test.ts",
 		"./Source/CommandMessage.ts"
 	]
 }
