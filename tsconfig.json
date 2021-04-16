@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"assumeChangesOnlyAffectDirectDependencies": false,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowUnreachableCode": false,
+		"outDir": "./Release",
+		"rootDir": "./Source",
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"diagnostics": true,
+		"extendedDiagnostics": true,
+		"traceResolution": false,
+		"listEmittedFiles": false,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"isolatedModules": false,
+		"module": "ESNext",
+		"target": "ESNext",
+		"moduleResolution": "Node",
+		"newLine": "lf",
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"pretty": true,
+		"removeComments": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": false,
+		"sourceMap": true,
+		"sourceRoot": "./Source",
+		"useDefineForClassFields": true,
+		"preserveConstEnums": true
+	},
+	"include": [
+		"Source/**/*.ts"
+	]
+}
