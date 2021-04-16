@@ -38,6 +38,7 @@
 	"files": [
 		"Source/AssetStream.ts",
 		"Source/AssetStream.test.ts",
-		"./Source/CommandMessage.ts"
+		"./Source/CommandMessage.ts",
+		"./Source/CommandResponse.ts"
 	]
 }
