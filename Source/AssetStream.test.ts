@@ -1,6 +1,6 @@
 import AssetStream from "./AssetStream.js";
 import Testing from "../../Testing/Release/Testing.js";
-import { isDefined } from "../../Testing/node_modules/@cc-tech/library/Release/cc-tech.js";
+import { isDefined } from "@cc-tech/library";
 const assetStream = Testing(AssetStream);
 
 const testCommand = { command: "Add" };
