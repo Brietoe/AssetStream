@@ -1,6 +1,5 @@
 import { CommandMessage } from "./CommandMessage";
-
-type CommandResponse = { request: CommandMessage; };
+import { CommandResponse } from "./CommandResponse";
 
 export default function AssetStream(message: CommandMessage): CommandResponse
 {
