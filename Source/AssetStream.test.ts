@@ -1,3 +1,4 @@
 import AssetStream from "./AssetStream.js";
+import Testing from "../../Testing/Release/Testing.js";
 
-AssetStream;
+Testing(AssetStream);
