@@ -37,8 +37,5 @@
 	},
 	"files": [
 		"Source/AssetStream.ts"
-	],
-	// "include": [
-	// 	"Source/**/*.ts"
-	// ]
+	]
 }
