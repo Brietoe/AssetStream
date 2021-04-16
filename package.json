@@ -1,0 +1,31 @@
+{
+	"name": "@cc-tech/asset-stream",
+	"version": "0.0.0-alpha.0",
+	"description": "Asset Stream",
+	"private": true,
+	"main": "./Release/AssetStream.js",
+	"type": "module",
+	"scripts": {
+		"start": "node ./Release/AssetStream.js",
+		"test": "node ./Release/AssetStream.test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Brietoe/AssetStream.git"
+	},
+	"author": "Brietoe <Brietoe@ComputerCowboy.tech>",
+	"license": "AGPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/Brietoe/AssetStream/issues"
+	},
+	"homepage": "https://github.com/Brietoe/AssetStream#readme",
+	"dependencies": {
+		"@cc-tech/library": "file:../Library",
+		"@cc-tech/testing": "file:../Testing",
+		"@cc-tech/web-portal": "file:../WebPortal"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.22.0",
+		"eslint": "^7.24.0"
+	}
+}
