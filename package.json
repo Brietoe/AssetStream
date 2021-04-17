@@ -19,7 +19,7 @@
 		"url": "https://github.com/Brietoe/AssetStream/issues"
 	},
 	"dependencies": {
-		"@cc-tech/testing": "Brietoe/Testing"
+		"@cc-tech/library": "github:Brietoe/Library"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.22.0",
